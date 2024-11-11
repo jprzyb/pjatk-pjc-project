@@ -1,0 +1,75 @@
+==============================================================================================
+						OPIS
+Gra polega na walce z przeciwnikami oraz pokonywaniu ich w celu ulepszenia swoich potworkow!
+Do wyboru masz dwa typy atakow: normalny (bazowany na typach potworow) oraz specjalny (duzo silniejszy i takze bazowany na typach). W trakcie rozgrywki mozna(,a nawet powinno sie) zmieniac potwory tak aby ich typ lepiej radzil sobie z przeciwnikami.
+==============================================================================================
+						INSTRUKCJE
+Aby wybrac dowolna opcje z dostepnych w grze MENU nalezy:
+
+1. Nacisnac klawisz odpowiadający pozycji, ktora chcemy wybrac
+2. Potwierdzic wciskajac ENTER
+
+Tak, to takie proste :)
+==============================================================================================
+					Atrybuty potworow
+
+int strenght;		--> sila potwora podczas rozgrywki (przywracane po pelnej rozgrywce)
+int MAXstrenght;		-> ogolna sila potwora
+int hp;			--> punkty zdrowia potwora podczas rozgrywki (przywracane po pelnej rozgrywce)
+int MAXhp;		-> ogolne punkty zdrowia potwora
+int agility;		--> szansa uniku potwora (przywracana po pelnej rozgrywce)
+int MAXagility;		-> ogolna szansa uniku potwora
+int playerId;		--> ID gracza (0-nieprzypisany ; 1-przypisany do gracza ; 2-przypisany do przeciwnika)
+int currentExp;		-> punkty doswiadczenia potwora
+int evolveExpRange;	--> ilosc punktow doswiadczenia potrzebna do ewolucji
+string name;		-> nazwa potwora
+string type;		--> typ potwora (AIR , EARTH , FIRE , ICE , STEEL , WATER)
+bool isDead;		-> czy potwor niezyje (false-zyje ; true- niezyje)
+==============================================================================================
+					Atrybuty graczy
+string name;		--> Imie gracza
+int wins;			-> Ilosc wygranych
+==============================================================================================
+
+					BUDOWA PLIKOW ZAPISU
+### DLA KLASY "Monster.cpp" jest to:
+		
+	nazwaPola			typPola	LP
+
+	firstMonsterName			string	0
+	firstMonsterType			string	1
+	firstMonsterHp			int	2
+	firstMonsterStrenght		int	3
+	firstMonsterAgility			int	4
+	firstPlayerID			int	5
+	firstCurrentExp			int	6
+	firstEvolveExpRange		int	7
+	firstMonsterIsDead			bool	8
+	secondMonsterName		string	9
+	secondMonsterType		string	10
+	secondMonsterHp			int	11
+	secondMonsterStrennght		int	12
+	secondMonsterAgility		int	13
+	secondPlayerID			int	14
+	secondCurrentExp			int	15
+	secondEvolveExpRange		int	16
+	secondMonsterIsDead		bool	17
+	...
+	lastMonsterName			string	127
+	lastMonsterType			string	128
+	lastMonsterHp			int	129
+	lastMonsterStrennght		int	130
+	lastMonsterAgility			int	131
+	LastPlayerID			int	132
+	lastCurrentExp			int	133
+	lastEvolveExpRange		int	134
+	lastMonsterIsDead 			int	135
+
+### DLA KLASY "Player.cpp" jest to:
+
+	nazwaPola			typPola	LP
+
+	name				string	0
+	wins				int	1
+
+==============================================================================================

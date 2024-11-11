@@ -1,0 +1,38 @@
+﻿  ConsoleApplication1.cpp
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\ConsoleApplication1.cpp(122,102): warning C4244: "argument": konwersja z "_Rep" do "unsigned int", możliwa utrata danych
+          with
+          [
+              _Rep=__int64
+          ]
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\ConsoleApplication1.cpp(499,21): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\ConsoleApplication1.cpp(513,21): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\ConsoleApplication1.cpp(531,20): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\ConsoleApplication1.cpp(576,20): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+  Monster.cpp
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(39,103): warning C4244: "argument": konwersja z "_Rep" do "unsigned int", możliwa utrata danych
+          with
+          [
+              _Rep=__int64
+          ]
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(149,15): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(150,9): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(151,14): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(153,18): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(154,12): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(155,17): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(158,21): warning C4244: "*=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(162,15): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(163,9): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(164,14): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(166,18): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(167,12): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(168,17): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Monster.cpp(170,21): warning C4244: "/=": konwersja z "double" do "int", możliwa utrata danych
+  Player.cpp
+E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\ConsoleApplication1\Player.cpp(22,103): warning C4244: "argument": konwersja z "_Rep" do "unsigned int", możliwa utrata danych
+          with
+          [
+              _Rep=__int64
+          ]
+  Generowanie kodu...
+  ConsoleApplication1.vcxproj -> E:\PJATK\XX_Projekty\2223Z_win_PJC_s24512\x64\Debug\ConsoleApplication1.exe
